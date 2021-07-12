@@ -22,9 +22,19 @@ print(data)
 # surplus = SHEET.worksheet('surplus')
 #  stock = SHEET.worksheet('surplus')
 
+def get_sales_data():
+
+    """
+    Get sales input figures from the user
+    """
+
+    print('Please enter sales data from the last market')
+    print('Data should be six numbers, separated by commas')
+    print('Example 10\n,20\n,30\n,40\n,50\n,60\n')
+
+    data_str = input('Enter your data here')
+    print(f'The data you provided is {data_str}')
+
+get_sales_data()
 
 
-
-
-
-    
